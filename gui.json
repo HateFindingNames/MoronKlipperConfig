@@ -1,0 +1,1 @@
+{"gui":{"general":{"printername":"Moron"},"dashboard":{"boolWebcam":false,"boolTempchart":true,"boolConsole":true,"hiddenMacros":["SCRUB","LIGHTS","PRINT_END","PRINT_START","WHAT"],"hiddenTempChart":[]},"webcam":{"url":"","rotate":false,"rotateDegrees":90,"flipX":false,"flipY":false,"bool":false},"gcodefiles":{"countPerPage":10},"settings":{"configfiles":{"countPerPage":10}}}}

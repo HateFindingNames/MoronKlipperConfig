@@ -1,0 +1,42 @@
+[server]
+host = 0.0.0.0
+port = 7125
+
+[file_manager]
+queue_gcode_uploads = False
+enable_object_processing = False
+
+[data_store]
+temperature_store_size = 600
+gcode_store_size = 1000
+
+[authorization]
+force_logins = false
+cors_domains = 
+	http://*.local
+	https://*.local
+	http://*.lan
+	https://*.lan
+	http://app.fluidd.xyz
+	https://app.fluidd.xyz
+trusted_clients = 
+	10.23.132.121/32
+	10.23.132.219/32
+
+[update_manager]
+enable_auto_refresh = True
+
+[update_manager client fluidd]
+type = web
+repo = fluidd-core/fluidd
+path = ~/fluidd
+
+[update_manager client mainsail]
+type = web
+repo = meteyou/mainsail
+path = ~/mainsail
+
+[octoprint_compat]
+
+[history]
+
